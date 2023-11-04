@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.js"
+			integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+			crossorigin="anonymous"
+		></script>
+		<script>
+			$(function () {
+				$("#header").load("header.html");
+			});
+		</script>
+		<!--Title-->
+		<title>Portfolio</title>
+		<!--Favicon-->
+		<link rel="shortcut icon" type="image/png" href="assets/portfolio.jpg" />
+		<!--Encoding-->
+		<meta charset="UTF-8" />
+		<!--Metatext-->
+		<meta name="Portfolio" />
+		<!--SEO Keywords-->
+		<meta
+			name="keywords"
+			content="portfolio, technical-writing, documentation, engineering"
+		/>
+		<!--Author-->
+		<meta name="author" content="Sherry Bath" />
+		<!--Viewport Dimensions-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!--Bootstrap Link-->
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+		/>
+		<!-- Google Fonts Link -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!--CSS Link-->
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="col-sm-3">
+            <a href="https://sherrybath12.github.io/portfolio/">
+                <img src="assets/home.jpg" class="img-responsive" width="50" height="50" alt="home"/>
+            </a>
+    </div>
+		<!--NAV HEADER-->
+		<div id="header"></div>
+		<!--BEGIN CONTAINER-1-->
+		<div class="container-1">
+			<div class="jumbotron">
+				<div class="container text-center">
+					<!--<img src="assets/name.jpg" width="50%" />-->
+					<h1 class="special">API Documentation</h1>
+					<p id="jumbotron">
+						API documentation is an instruction manaul that explains how to use an API and its services. The documentation
+						should be in its simplest form, yet it shouldn't leave out any important details. There are numerous tools out 
+						there to make your journey of API documentation easier. The benefit of using tools is the collaborative features 
+						and standard templates these tools provide, rather than starting from scratch. 
+					</p>
+				</div>
+			</div>
+		</div>
+		<!--BEGIN CONTAINER-2-->
+		<div class="container-fluid bg-3">
+			<div class="row" align="center">
+				<div class="col-sm-3">
+					<p>
+						<a href="https://sherrybath12.github.io/Redoc-API-Documentation/">
+						<h2 class="special">Rest API and Redoc</h1>
+						</a>
+						<a href="https://sherrybath12.github.io/Redoc-API-Documentation/">
+							<img src="assets/redoc.jpg" class="img-responsive" width="1000" height="1000" alt="rest-api"/>
+						</a>
+					</p>
+				</div>
+				<div class="col-sm-3">
+					<p>
+						<a href="https://sherrybath12.github.io/API-Swagger/">
+						<h2 class="special">SwaggerUI Open API</h1>
+						</a>
+						<a href="https://sherrybath12.github.io/API-Swagger/">
+							<img src="assets/swagger.jpg" class="img-responsive" width="1000" height="1000" alt="swagger"/>
+						</a>
+					</p>
+				</div>
+				<div class="col-sm-3">
+				<p>
+					<a href="https://sherrybath12.github.io/API-Markdown/">
+					<h2 class="special">API Docs with Markdown</h1>
+					</a>
+					<a href="https://sherrybath12.github.io/API-Markdown/">
+						<img src="assets/marks.jpg" class="img-responsive" width="1000" height="1000" alt="markdown"/>
+					</a>
+				</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>
