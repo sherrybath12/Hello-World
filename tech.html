@@ -1,71 +1,128 @@
 
 <!DOCTYPE html> 
 <html> 
-<head> 
-    <title>PDF in HTML</title> 
-</head> 
-<body style="background-color:rgb(212, 202, 182);">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio</title>
+        <link rel="shortcut icon" type="image/png" href="assets/portfolio.jpg" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;0,900;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
     <div class="col-sm-3">
             <a href="https://sherrybath12.github.io/Hello-World/">
                 <img src="assets/home.jpg" class="img-responsive" width="50" height="50" alt="home"/>
             </a>
     </div>
-    <center>
-        <table>
-            <tr>
-                <td>
-        <h1 style="color: brown" align="center">Technical Writing Samples</h1>
-    </br>
-        <h3 style="color: brown">Orders Implementation Guide</h3> 
-        <h4> This is a sample of a User Implementation guide (made at McKesson)</h4>
-        <div id="scroll-wrapper">
-        <iframe src=  "https://sherrybath12.github.io/Hello-World/samples/Technical Implementation Guide.pdf" 
-                width="1000"
-                height="1000"> 
-        </iframe>
-    </br>
+    <table align="center">
+        <tr>
+            <td>
+    <h1 style="color: brown">Technical Writing Samples</h1>
+            </td>
+            </tr>
+            </table>
 </br>
 </br>
 </br>
-</br>
-</br>
-        </div>
-    </td>
-    </tr>
-    <tr>
-        <td>
-            <h3 style="color: brown">JMeter API Testing Developer Guide</h3> 
-            <h4> This is a sample of JMeter API Testing Developer Guide (made at CHC)</h4>
-            <div id="scroll-wrapper">
-            <iframe src=  "https://sherrybath12.github.io/Hello-World/samples/JMeter.pdf" 
-                    width="1000"
-                    height="1000"> 
-            </iframe>
-        </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-        </div>
+<table style="background-color:whitesmoke" >
+    <tr style="height:400px"> 
+        <td class="col-xs-12 col-md-6 txtctr img-mydata">
+            <div>
+                <ul class="ulMyData">
+                    <li><h3>Orders Technical Implementation Guide</h3></li>
+                    <li class="bulletText">&#8226;This is a comprehensive customer facing technical implementation guide made at McKesson with detailed information on how to integrate with the Connected Orders solution.</li>
+                    <li class="bulletText">&#8226;The document is complemented with architecture illustrations, canonical data formats and sample HL7 transactions.</li>
+                </ul>
+            </div>
         </td>
-    </tr>
+        <td width="10%"></td>
+        <td>
+            <div class="col-xs-12 col-md-6 txtctr img-mydata">
+                <a class="nav-link" href="samples/Orders Guide.pdf">
+                <img src="assets/orders.jpg" width="500" height="300" class="img" />
+                </a>
+            </div>
+        </td>
 </tr>
-</br>
-</br>
-<tr>
-    <td>
-        <h3 style="color: brown">HTML to Figma</h3> 
-        <h4> This is a one pager on how to clone a website template into Figma</h4>
-        <div id="scroll-wrapper">
-        <iframe src=  "https://sherrybath12.github.io/Hello-World/assets/figma.jpg" 
-                width="1400"
-                height="850"> 
-        </iframe> 
-    </div>
-    </td>
+ </table>
+ <table style="background-color:white">
+    <tr style="height:400px"> 
+        <td width="10%"></td>
+        <td>
+            <div class="col-xs-12 col-md-6 txtctr img-mydata">
+                <a class="nav-link" href="samples/JMeter.pdf">
+                <img src="assets/perf.jpg" width="500" height="300" class="img" />
+                </a>
+            </div>
+        </td>
+        <td width="10%"></td>
+        <td class="col-xs-12 col-md-6 txtctr img-mydata">
+            <div>
+                <ul class="ulMyData">
+                    <li><h3>JMeter Installation and Setup Guide</h3></li>
+                    <li class="bulletText">&#8226;This is a developer facing installation and setup guide for a performance testing tool called JMeter.</li>
+                    <li class="bulletText">&#8226;I was able to do dry runs, capture necessary screenshots and sample code aiding in quick install and setup of the tool.</li>
+                    <li class="bulletText">&#8226; It can be used for both API and UI performance tests along with a detailed result analysis dashboard.
+                </ul>
+            </div>  
+        </td>
 </tr>
-    </table>
-    </center> 
+ </table>
+ <table style="background-color:whitesmoke" >
+    <tr style="height:400px"> 
+        <td class="col-xs-12 col-md-6 txtctr img-mydata">
+            <div>
+                <ul class="ulMyData">
+                    <li><h3>Failure Recovery in a Distributed System</h3></li>
+                    <li class="bulletText">&#8226;This document is a US patent for a project where I was an active participant in during the system analysis/testing/ tech writing.</li>
+                    <li class="bulletText">&#8226;It follows patent document style with figures and detailed description.</li>
+                    <li class="bulletText">&#8226;The complete document can be searched on the public patent <a href="https://ppubs.uspto.gov/pubwebapp/static/pages/ppubsbasic.html">site</a> with number patent 10360095 can be viewed at <a href = "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/10360095">here</a></li>
+                </ul>
+            </div>
+        </td>
+        <td width="10%"></td>
+        <td>
+            <div class="col-xs-12 col-md-6 txtctr img-mydata">
+                <a class="nav-link" href="samples/Patent.pdf">
+                <img src="assets/patent.png" width="500" height="300" class="img" />
+                </a>
+            </div>
+        </td>
+</tr>
+ </table> 
+ <!--
+ <table style="background-color:white">
+    <tr style="height:400px"> 
+        <td width="10%"></td>
+        <td>
+            <div class="col-xs-12 col-md-6 txtctr img-mydata">
+                <a class="nav-link" href="samples/JMeter.pdf">
+                <img src="assets/perf.jpg" width="500" height="300" class="img" />
+                </a>
+            </div>
+        </td>
+        <td width="10%"></td>
+        <td class="col-xs-12 col-md-6 txtctr img-mydata">
+            <div>
+                <ul class="ulMyData">
+                    <li><h3>JMeter Installation and Setup Guide</h3></li>
+                    <li class="bulletText">&#8226;This is a developer facing installation and setup guide for a performance testing tool called JMeter.</li>
+                    <li class="bulletText">&#8226;I was able to do dry runs, capture necessary screenshots and sample code aiding in quick install and setup of the tool.</li>
+                    <li class="bulletText">&#8226; It can be used for both API and UI performance tests along with a detailed result analysis dashboard.
+                </ul>
+            </div>  
+        </td>
+</tr>
+ </table>-->
 </body> 
 </html>
